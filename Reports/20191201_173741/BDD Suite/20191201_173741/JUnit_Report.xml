@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="BDD Suite" time="33.539" tests="1" failures="0" errors="0">
+   <testsuite name="BDD Suite" tests="1" failures="0" errors="0" time="33.539" timestamp="2019-12-01 17:37:51" hostname="APPAN - APPAN-PC" id="Test Suites/BDD Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Softwares\\My PC Apps\\Katalon Studio\\Workspace\\LearnCucumber\\Reports\\20191201_173741\\BDD Suite\\20191201_173741"/>
+         <property name="logFiles" value="E:\\Softwares\\My PC Apps\\Katalon Studio\\Workspace\\LearnCucumber\\Reports\\20191201_173741\\BDD Suite\\20191201_173741\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="APPAN - APPAN-PC"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="7.0.9.1"/>
+         <property name="browser" value="Chrome 78.0.3904.108"/>
+         <property name="hostAddress" value="192.168.43.40"/>
+         <property name="sessionId" value="c78dda8f4f71e48a57a09179a6ae6b66"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/CucumberRunnerTest" time="26.181" classname="Test Cases/CucumberRunnerTest" status="PASSED">
+         <system-out><![CDATA[2019-12-01 17:37:51 - [TEST_CASE][PASSED] - Test Cases/CucumberRunnerTest: Test Cases/CucumberRunnerTest
+
+2019-12-01 17:37:51 - [TEST_STEP][PASSED] - runWithCucumberRunner(runner.CucumberRunner): Run with 'runner.CucumberRunner' was passed
+
+2019-12-01 17:37:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-01 17:37:53 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-12-01 17:37:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-01 17:38:01 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2019-12-01 17:38:02 - [MESSAGE][PASSED] - Object: 'Object Repository/CURA Healthcare/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2019-12-01 17:38:03 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/CURA Healthcare/Page_CURA Healthcare Service/input_Username_username'
+
+2019-12-01 17:38:03 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/CURA Healthcare/Page_CURA Healthcare Service/input_Password_password'
+
+2019-12-01 17:38:05 - [MESSAGE][PASSED] - Object: 'Object Repository/CURA Healthcare/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2019-12-01 17:38:05 - [MESSAGE][PASSED] - Object 'Object Repository/CURA Healthcare/Page_CURA Healthcare Service/button_Book Appointment' is present
+
+2019-12-01 17:38:06 - [MESSAGE][PASSED] - Browser is closed
+
+2019-12-01 17:38:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-01 17:38:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-01 17:38:12 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2019-12-01 17:38:13 - [MESSAGE][PASSED] - Object: 'Object Repository/CURA Healthcare/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2019-12-01 17:38:13 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/CURA Healthcare/Page_CURA Healthcare Service/input_Username_username'
+
+2019-12-01 17:38:14 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/CURA Healthcare/Page_CURA Healthcare Service/input_Password_password'
+
+2019-12-01 17:38:15 - [MESSAGE][PASSED] - Object: 'Object Repository/CURA Healthcare/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2019-12-01 17:38:15 - [MESSAGE][PASSED] - Object 'Object Repository/CURA Healthcare/Page_CURA Healthcare Service/button_Book Appointment' is present
+
+2019-12-01 17:38:17 - [MESSAGE][PASSED] - Browser is closed
+
+2019-12-01 17:38:17 - [MESSAGE][PASSED] - Run with 'runner.CucumberRunner' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-12-01 17:37:51 - [TEST_SUITE][PASSED] - BDD Suite: Test Cases/CucumberRunnerTest]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+BDD Suite,Chrome 78.0.3904.108,,,2019-12-01 16:45:32,2019-12-01 16:46:00,27.352s,PASSED
+,,,,,,,
+Test Cases/RunFeatureFileTest,Chrome 78.0.3904.108,,,2019-12-01 16:45:33,2019-12-01 16:45:48,15.536s,PASSED
+"runFeatureFile(""Include/features/Login.feature"")",Chrome 78.0.3904.108,,,2019-12-01 16:45:33,2019-12-01 16:45:48,15.079s,PASSED
+,,,,,,,
+Test Cases/RunFeatureFolderTest,Chrome 78.0.3904.108,,,2019-12-01 16:45:48,2019-12-01 16:46:00,11.335s,PASSED
+"runFeatureFolder(""Include/features"")",Chrome 78.0.3904.108,,,2019-12-01 16:45:49,2019-12-01 16:46:00,11.079s,PASSED

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="BDD Suite" time="37.715" tests="2" failures="0" errors="0">
+   <testsuite name="BDD Suite" tests="2" failures="0" errors="0" time="37.715" timestamp="2019-12-01 16:45:32" hostname="APPAN - APPAN-PC" id="Test Suites/BDD Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Softwares\\My PC Apps\\Katalon Studio\\Workspace\\LearnCucumber\\Reports\\20191201_164523\\BDD Suite\\20191201_164523"/>
+         <property name="logFiles" value="E:\\Softwares\\My PC Apps\\Katalon Studio\\Workspace\\LearnCucumber\\Reports\\20191201_164523\\BDD Suite\\20191201_164523\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="APPAN - APPAN-PC"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="7.0.9.1"/>
+         <property name="browser" value="Chrome 78.0.3904.108"/>
+         <property name="hostAddress" value="192.168.43.40"/>
+         <property name="sessionId" value="2bdb15e6726d531fd238ba6c8173a637"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/RunFeatureFileTest" time="15.536" classname="Test Cases/RunFeatureFileTest" status="PASSED">
+         <system-out><![CDATA[2019-12-01 16:45:33 - [TEST_CASE][PASSED] - Test Cases/RunFeatureFileTest: Test Cases/RunFeatureFileTest
+
+2019-12-01 16:45:33 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/Login.feature"): Feature file: 'Include/features/Login.feature' was passed
+
+2019-12-01 16:45:34 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Login.feature' and extract report to folder: 'E:\Softwares\My PC Apps\Katalon Studio\Workspace\LearnCucumber\Reports\20191201_164523\BDD Suite\20191201_164523/cucumber_report/1575198933962'...
+
+2019-12-01 16:45:34 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Test login scenario with valid credentials: SCENARIO Test login scenario with valid credentials
+
+2019-12-01 16:45:34 - [TEST_STEP][PASSED] - User navigates to login page: User navigates to login page
+
+2019-12-01 16:45:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-01 16:45:35 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-12-01 16:45:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-01 16:45:44 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2019-12-01 16:45:45 - [MESSAGE][PASSED] - Object: 'Object Repository/CURA Healthcare/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2019-12-01 16:45:45 - [MESSAGE][PASSED] - User navigates to login page
+
+2019-12-01 16:45:45 - [TEST_STEP][PASSED] - User enters username and password: User enters username and password
+
+2019-12-01 16:45:46 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/CURA Healthcare/Page_CURA Healthcare Service/input_Username_username'
+
+2019-12-01 16:45:46 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/CURA Healthcare/Page_CURA Healthcare Service/input_Password_password'
+
+2019-12-01 16:45:46 - [MESSAGE][PASSED] - User enters username and password
+
+2019-12-01 16:45:46 - [TEST_STEP][PASSED] - Click on login button: Click on login button
+
+2019-12-01 16:45:47 - [MESSAGE][PASSED] - Object: 'Object Repository/CURA Healthcare/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2019-12-01 16:45:47 - [MESSAGE][PASSED] - Click on login button
+
+2019-12-01 16:45:47 - [TEST_STEP][PASSED] - User is navigated to home page: User is navigated to home page
+
+2019-12-01 16:45:48 - [MESSAGE][PASSED] - Object 'Object Repository/CURA Healthcare/Page_CURA Healthcare Service/button_Book Appointment' is present
+
+2019-12-01 16:45:48 - [MESSAGE][PASSED] - Browser is closed
+
+2019-12-01 16:45:48 - [MESSAGE][PASSED] - User is navigated to home page
+
+2019-12-01 16:45:48 - [MESSAGE][PASSED] - Feature file: 'Include/features/Login.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RunFeatureFolderTest" time="11.335" classname="Test Cases/RunFeatureFolderTest" status="PASSED">
+         <system-out><![CDATA[2019-12-01 16:45:48 - [TEST_CASE][PASSED] - Test Cases/RunFeatureFolderTest: Test Cases/RunFeatureFolderTest
+
+2019-12-01 16:45:49 - [TEST_STEP][PASSED] - runFeatureFolder("Include/features"): All feature files in 'Include/features' were passed
+
+2019-12-01 16:45:49 - [MESSAGE][INFO] - Starting run keyword runFeatureFolder: 'Include/features' and extract report to folder: 'E:\Softwares\My PC Apps\Katalon Studio\Workspace\LearnCucumber\Reports\20191201_164523\BDD Suite\20191201_164523/cucumber_report/1575198949236'...
+
+2019-12-01 16:45:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-01 16:45:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-01 16:45:55 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2019-12-01 16:45:57 - [MESSAGE][PASSED] - Object: 'Object Repository/CURA Healthcare/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2019-12-01 16:45:57 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/CURA Healthcare/Page_CURA Healthcare Service/input_Username_username'
+
+2019-12-01 16:45:58 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/CURA Healthcare/Page_CURA Healthcare Service/input_Password_password'
+
+2019-12-01 16:45:59 - [MESSAGE][PASSED] - Object: 'Object Repository/CURA Healthcare/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2019-12-01 16:45:59 - [MESSAGE][PASSED] - Object 'Object Repository/CURA Healthcare/Page_CURA Healthcare Service/button_Book Appointment' is present
+
+2019-12-01 16:46:00 - [MESSAGE][PASSED] - Browser is closed
+
+2019-12-01 16:46:00 - [MESSAGE][PASSED] - All feature files in 'Include/features' were passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-12-01 16:45:32 - [TEST_SUITE][PASSED] - BDD Suite: Test Cases/RunFeatureFolderTest]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

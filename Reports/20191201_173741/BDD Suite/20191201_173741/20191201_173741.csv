@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+BDD Suite,Chrome 78.0.3904.108,,,2019-12-01 17:37:51,2019-12-01 17:38:17,26.609s,PASSED
+,,,,,,,
+Test Cases/CucumberRunnerTest,Chrome 78.0.3904.108,,,2019-12-01 17:37:51,2019-12-01 17:38:17,26.181s,PASSED
+runWithCucumberRunner(runner.CucumberRunner),Chrome 78.0.3904.108,,,2019-12-01 17:37:51,2019-12-01 17:38:17,25.973s,PASSED

@@ -1,0 +1,71 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Test login scenario with valid credentials",
+        "description": "",
+        "id": "login-feature-to-the-cura-healthcare;test-login-scenario-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10637722908,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User navigates to login page",
+            "match": {
+              "location": "LoginSteps.User_navigates_to_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1085985188,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters username and password",
+            "match": {
+              "location": "LoginSteps.userEntersCredentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1155452640,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on login button",
+            "match": {
+              "location": "LoginSteps.clickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1060566522,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is navigated to home page",
+            "match": {
+              "location": "LoginSteps.navigateToHomePage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login feature to the CURA Healthcare",
+    "description": "",
+    "id": "login-feature-to-the-cura-healthcare",
+    "keyword": "Feature",
+    "uri": "E:/Softwares/My PC Apps/Katalon Studio/Workspace/LearnCucumber/Include/features/Login.feature",
+    "tags": []
+  }
+]

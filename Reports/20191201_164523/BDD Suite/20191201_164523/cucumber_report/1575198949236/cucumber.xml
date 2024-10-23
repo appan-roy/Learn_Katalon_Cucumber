@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="10.973006">
+<testcase classname="Login feature to the CURA Healthcare" name="Test login scenario with valid credentials" time="10.973006">
+<system-out><![CDATA[Given User navigates to login page..........................................passed
+When User enters username and password......................................passed
+And Click on login button...................................................passed
+Then User is navigated to home page.........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
